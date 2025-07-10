@@ -1,8 +1,19 @@
-
+.montserrat-normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root{
     --light-purple:#4E47FF;
     --font-color:#FFFFFF;
+    --purpler: #CBC3E3;
 }
 
 /*header section*/
@@ -64,4 +75,85 @@ text-decoration:none;
     text-align: center;
     padding-bottom:200px ;
     
+}
+
+/*main section*/
+main{
+    padding:150px ;
+}
+.see-elements{
+    padding-left:141px ;
+    padding-right:141px ;
+}
+.see{
+    display: flex;
+    justify-content: space-between;
+}
+.see-h2{
+    font-size: 42px;
+    font-weight: 600;
+}
+.see-p{
+    font-size: 24px;
+    font-weight: 400;
+    paddi
+    gap: auto;
+}
+.see-button{
+    background-color: var(--light-purple);
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+
+}
+.see-pic{
+    border:none;
+    border-radius:30px ;
+    
+}
+/*joined*/
+.joined{
+   padding: 50px 80px;
+   background-color: var(--purpler);
+   border-radius: 10px;
+   padding: 50px 80px; 
+   margin-top: 116px;
+   padding: 0px 141px;
+}
+.joined-elements{
+    padding: 50px 80px;
+}
+.joined-h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.percent{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 158px;
+    margin-top: 40px;
+    
+}
+
+.k-h1{
+    font-size: 80px;
+    color: var(--light-purple);
+    margin-bottom: 0px;
+
+}
+.k-p{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 0px;
 }
