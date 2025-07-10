@@ -15,6 +15,11 @@
     --font-color:#FFFFFF;
     --purpler: #CBC3E3;
     --box-shadow:#F2EDED;
+    --secondary-font-color:rgba(0, 0, 0, 0.5);
+    --body-color:#E6E6FA;
+}
+body{
+    background-color: var(--body-color);
 }
 
 /*header section*/
@@ -97,7 +102,6 @@ main{
 .see-p{
     font-size: 24px;
     font-weight: 400;
-    paddi
     gap: auto;
 }
 .see-button{
@@ -158,6 +162,7 @@ main{
     font-weight: 400px;
     margin-top: 0px;
 }
+/*what section*/
 
 .what-h2{
     text-align: center;
@@ -174,10 +179,11 @@ main{
     border-radius: 50px;
 }
 .container{
-    border: none;
-    box-shadow: 50px 40px 40px 40px var(--box-shadow);
+    box-shadow: 20px 20px 40px var(--box-shadow);
     border-radius: 10px;
     padding: 20px;
+    background-color:var(--font-color);
+    border: 5px;
 
 
 }
@@ -185,8 +191,50 @@ main{
     display: flex;
     justify-content: space-around;
     gap: 50px;
+   
 
 }
 .what{
     margin-top: 137px;
+}
+
+/*ready section*/
+.ready{
+    margin-top: 137px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px 10px var(--box-shadow);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--font-color);
+   
+
+}
+.ready-h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 71px;
+}
+.ready-h6{
+    margin-top:20px ;
+}
+.ready-pic{
+    border-radius:40px;
+    margin:20px 150px 71px 150px ;
+}
+.ready-button{
+    background-color: var(--light-purple);
+    border: none;
+    border-radius:10px ;
+    height: 48px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+.ready-h6{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--secondary-font-color);
 }
