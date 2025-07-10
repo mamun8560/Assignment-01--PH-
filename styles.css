@@ -238,3 +238,23 @@ main{
     font-size: 20px;
     color: var(--secondary-font-color);
 }
+
+/*let's start*/
+.lets{
+    margin-top: 94px;
+    padding-left:150px  ;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+}
+.lets-get{
+    padding: 200px;
+}
+.lets-form{
+    padding: 71px;
+    display: block;
+    flex-direction: column;
+    
+   
+}
