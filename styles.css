@@ -241,20 +241,45 @@ main{
 
 /*let's start*/
 .lets{
-    margin-top: 94px;
-    padding-left:150px  ;
-    padding-right: 150px;
     display: flex;
     justify-content: space-between;
+    padding:71px 0px 90px 0px ;
     gap: auto;
+
 }
 .lets-get{
-    padding: 200px;
+    padding:129px 115px 129px 0px ;
+    font-size: 97px;
+    font-weight: 600;
+    width: 50%;
+
 }
 .lets-form{
-    padding: 71px;
+    width: 50%;
+}
+.lets-form input[type="text"], .lets-form input[type="email"], .lets-form textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-attachment: var(--font-color);
     display: block;
-    flex-direction: column;
+    width:100%;
+    padding: 20px 271px 20px 10px;
+    margin-bottom: 24px;
+    border: none;
+    box-sizing: border-box;
     
-   
+}
+.lets-form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lets-form button{
+    width: 100%;
+    background-color: var(--light-purple);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: var(--font-color);
+    font-size:16px;
+    font-weight: 600;
 }
