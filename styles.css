@@ -9,6 +9,10 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 :root{
     --light-purple:#4E47FF;
@@ -282,4 +286,35 @@ main{
     color: var(--font-color);
     font-size:16px;
     font-weight: 600;
+}
+
+/*footer start*/
+.footer-container{
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 104px 455px;
+    margin-top: 14px;
+    background-color: var(--font-color);
+
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+}
+.footer-ul a{
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    font-weight: 600;
+    
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 600;
+    color: var(--light-purple);
+}
+.footer-p{
+    color: var(--secondary-font-color);
 }
