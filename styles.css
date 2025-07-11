@@ -13,7 +13,17 @@
     margin: 0;
     padding: 0;
 }
-
+body button:hover{
+    background-color:var(--btn-hover);
+    cursor: pointer;
+    align-items: center;
+    font-weight: 900;
+}
+body a:hover{
+  cursor: pointer;
+  color: var(--light-purple);
+  text-decoration: underline;
+}
 :root{
     --light-purple:#4E47FF;
     --font-color:#FFFFFF;
@@ -21,6 +31,7 @@
     --box-shadow:#F2EDED;
     --secondary-font-color:rgba(0, 0, 0, 0.5);
     --body-color:#E6E6FA;
+    --btn-hover: navy;
 }
 body{
     background-color: var(--body-color);
@@ -106,7 +117,8 @@ main{
 .see-p{
     font-size: 24px;
     font-weight: 400;
-    gap: auto;
+    margin-bottom: 10px;
+    color: var(--secondary-font-color);
 }
 .see-button{
     background-color: var(--light-purple);
@@ -117,8 +129,9 @@ main{
     border-radius: 10px;
     align-items: center;
     text-align: center;
-    height: 50px;
-    width: 200px;
+    height: 60px;
+    width: 300px;
+    max-width: 300px;
     padding: 5px;
 
 }
@@ -170,8 +183,9 @@ main{
 
 .what-h2{
     text-align: center;
-    font-size: 42px;
+    font-size: 50px;
     font-weight: 600;
+    padding-bottom: 40px;
 }
 
 .stars{
@@ -222,6 +236,7 @@ main{
 }
 .ready-h6{
     margin-top:20px ;
+    margin-bottom: 20px;
 }
 .ready-pic{
     border-radius:40px;
@@ -233,7 +248,7 @@ main{
     border-radius:10px ;
     height: 48px;
     width: 200px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--font-color);
 }
@@ -260,6 +275,11 @@ main{
 }
 .lets-form{
     width: 50%;
+}
+.lets-form textarea{
+    width: 100%;
+    height: 135px;
+    color: var(--secondary-font-color);
 }
 .lets-form input[type="text"], .lets-form input[type="email"], .lets-form textarea{
     height: 64px;
@@ -309,6 +329,7 @@ main{
     text-decoration: none;
     color: var(--secondary-font-color);
     font-weight: 600;
+    font-size: 20px;
     
     
 }
